@@ -1,0 +1,47 @@
+/* home-page */
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: white;
+}
+.dis-content{
+  /* padding: 2rem 20em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dis-post{
+  margin: 1rem 0;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  width: 55vw;
+}
+/* .content{
+    padding: 1em 0 0 0;
+} */
+.three-dots{
+    color: black;
+    cursor: pointer;
+}
+.content-btn{
+    margin-right: 1rem;
+}
+
+
+
+@media (max-width: 480px) {
+    .dis-post{
+        width: 77vw;
+        margin: 1 0;
+      }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .dis-post{
+        width: 70vw;
+        margin: 1 0;
+      }
+}

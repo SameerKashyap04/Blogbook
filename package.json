@@ -1,0 +1,19 @@
+{
+  "name": "blog-web-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sameer Kashyap",
+  "license": "ISC",
+  "description": " A blog web application",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "npm": "^11.0.0"
+  }
+}
