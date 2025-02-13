@@ -499,10 +499,14 @@ input{
 }
   
 
+
+/* link color */
 a{
   color: black;
 }
-
+span{
+  color: black;
+}
 
 
 /* Media Query for Mobile Devices */
